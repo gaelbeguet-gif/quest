@@ -30,6 +30,8 @@ body {
 .texte-rouge {
     /* CHANGEMENT : Applique la couleur rouge */
     color: red;
+    /* CHANGEMENT : Applique une taille de police plus grande */
+    font-size: 1.5rem;
     /* Propriété pour forcer le gras (même si <strong> le fait déjà) */
     font-weight: bold;
 }
