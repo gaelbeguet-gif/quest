@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antisèche HTML & CSS</title>
+    <link rel="stylesheet" href="style_antiseche.css"> 
+</head>
+<body>
+    <header class="main-header">
+        <h1 id="titre-principal">Bases HTML</h1>
+        <p>Le squelette de toute page web.</p>
+    </header>
+
+    <main>
+        <section class="section-structure">
+            <h2>Structure de Base & Métadonnées</h2>
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Balise</th>
+                        <th>Rôle</th>
+                        <th>Exemple</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>&lt;!DOCTYPE html&gt;</td><td>Déclaration</td><td>&lt;!DOCTYPE html&gt;</td></tr>
+                    <tr><td>&lt;html&gt;</td><td>Conteneur Racine</td><td>&lt;html lang="fr"&gt;</td></tr>
+                    <tr><td>&lt;head&gt;</td><td>En-tête (Invisible)</td><td>&lt;head&gt;...&lt;/head&gt;</td></tr>
+                    <tr><td>&lt;body&gt;</td><td>Corps (Visible)</td><td>&lt;body&gt;...&lt;/body&gt;</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section-texte">
+            <h2>Balises de Texte & Titres</h2>
+            <hr>
+            <p>Voici un <strong class="texte-rouge">texte important</strong> et un <a href="#" target="_blank">lien vers rien</a>.</p>
+            <h3>Exemple de Hiérarchie</h3>
+            <p>Utilisez des paragraphes (<span class="code-span">&lt;p&gt;</span>) pour le texte normal.</p>
+        </section>
+        
+        <section class="section-liens">
+            <h2>Liens & Images</h2>
+            <hr>
+            <p>Mon lien : <a href="http://www.wildcodeschool.com">Titre du lien</a></p>
+            
+            <p>Mon image : <img src="https://res.cloudinary.com/wildcodeschool/image/upload/c_fill,h_50/v1/static/irjoy97aq0eol8bf6959" alt="Logo Wild Code School"></p>
+
+            <p>L'attribut clé pour un lien est <span class="code-span">href</span>.</p>
+            <p>Pour l'image, c'est <span class="code-span">src</span> et <span class="code-span">alt</span> (pour l'accessibilité).</p>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 - HTML / CSS Reference.</p>
+    </footer>
+</body>
+</html>
